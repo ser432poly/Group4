@@ -1,0 +1,998 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13A10DD3B0EE17DCCB9EB0F0 /* Survior2050GameMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 054DB47A08937DE82BC8BBFA /* Survior2050GameMode.cpp */; };
+		249A8682CFFD31153CACADE2 /* Survior2050.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3ECC93AF5441AEF56F12E59D /* Survior2050.cpp */; };
+		2E5A5F739D95DCEBF61FB820 /* Survior2050Projectile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC9526E40B846203ED59E36D /* Survior2050Projectile.cpp */; };
+		E4431A590C6D184AE612BB9A /* Survior2050HUD.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC907949597F43483BF94CFB /* Survior2050HUD.cpp */; };
+		FD6ED06BF2067211B4E836FC /* Survior2050Character.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 56AF37139DE9F9662020A331 /* Survior2050Character.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1C7ACDD76EF89E38D481E90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 613F54610214FF02B07F178A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 222E40A4723D298873AC4C58;
+			remoteInfo = Survior2050_Build;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		054DB47A08937DE82BC8BBFA /* Survior2050GameMode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = Survior2050GameMode.cpp; path = ../../Source/Survior2050/Survior2050GameMode.cpp; sourceTree = SOURCE_ROOT; };
+		0B2286ABF44AB5AABDA95438 /* Survior2050.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Survior2050.h; path = ../../Source/Survior2050/Survior2050.h; sourceTree = SOURCE_ROOT; };
+		10E4841AB4578BB4EF66F8B7 /* Survior2050.uproject */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = Survior2050.uproject; path = ../../Survior2050.uproject; sourceTree = SOURCE_ROOT; };
+		2D0CF29057A8A4B9F3E1DD17 /* Survior2050GameMode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Survior2050GameMode.h; path = ../../Source/Survior2050/Survior2050GameMode.h; sourceTree = SOURCE_ROOT; };
+		3ECC93AF5441AEF56F12E59D /* Survior2050.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = Survior2050.cpp; path = ../../Source/Survior2050/Survior2050.cpp; sourceTree = SOURCE_ROOT; };
+		56AF37139DE9F9662020A331 /* Survior2050Character.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = Survior2050Character.cpp; path = ../../Source/Survior2050/Survior2050Character.cpp; sourceTree = SOURCE_ROOT; };
+		576A8C9304901E25ACA0FBE1 /* Survior2050.Build.cs */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = Survior2050.Build.cs; path = ../../Source/Survior2050/Survior2050.Build.cs; sourceTree = SOURCE_ROOT; };
+		58A3D1E36599BD22EC8A5544 /* Survior2050Character.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Survior2050Character.h; path = ../../Source/Survior2050/Survior2050Character.h; sourceTree = SOURCE_ROOT; };
+		66EC233FA4C6D51A5158A3C7 /* Survior2050HUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Survior2050HUD.h; path = ../../Source/Survior2050/Survior2050HUD.h; sourceTree = SOURCE_ROOT; };
+		6EF1EB4E659A8BF798C986A9 /* Survior2050Editor.Target.cs */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = Survior2050Editor.Target.cs; path = ../../Source/Survior2050Editor.Target.cs; sourceTree = SOURCE_ROOT; };
+		940AC694D607EE88F16DFF10 /* Survior2050.Target.cs */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = Survior2050.Target.cs; path = ../../Source/Survior2050.Target.cs; sourceTree = SOURCE_ROOT; };
+		A29399A20CB728473303620E /* Survior2050Projectile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Survior2050Projectile.h; path = ../../Source/Survior2050/Survior2050Projectile.h; sourceTree = SOURCE_ROOT; };
+		DC9526E40B846203ED59E36D /* Survior2050Projectile.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = Survior2050Projectile.cpp; path = ../../Source/Survior2050/Survior2050Projectile.cpp; sourceTree = SOURCE_ROOT; };
+		E78EF5C93F7813401AD755DC /* Survior2050.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = Survior2050.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC907949597F43483BF94CFB /* Survior2050HUD.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = Survior2050HUD.cpp; path = ../../Source/Survior2050/Survior2050HUD.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		4784214602437EF170C41008 = {
+			isa = PBXGroup;
+			children = (
+				4FC72D128AD744F999C4DE17 /* Source */,
+				10E4841AB4578BB4EF66F8B7 /* Survior2050.uproject */,
+				D237E75ECFB89830CDE60566 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4FC72D128AD744F999C4DE17 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				FB8ACA67BAD8811FCAAF0478 /* Survior2050 */,
+				940AC694D607EE88F16DFF10 /* Survior2050.Target.cs */,
+				6EF1EB4E659A8BF798C986A9 /* Survior2050Editor.Target.cs */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		D237E75ECFB89830CDE60566 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E78EF5C93F7813401AD755DC /* Survior2050.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB8ACA67BAD8811FCAAF0478 /* Survior2050 */ = {
+			isa = PBXGroup;
+			children = (
+				576A8C9304901E25ACA0FBE1 /* Survior2050.Build.cs */,
+				3ECC93AF5441AEF56F12E59D /* Survior2050.cpp */,
+				0B2286ABF44AB5AABDA95438 /* Survior2050.h */,
+				56AF37139DE9F9662020A331 /* Survior2050Character.cpp */,
+				58A3D1E36599BD22EC8A5544 /* Survior2050Character.h */,
+				054DB47A08937DE82BC8BBFA /* Survior2050GameMode.cpp */,
+				2D0CF29057A8A4B9F3E1DD17 /* Survior2050GameMode.h */,
+				EC907949597F43483BF94CFB /* Survior2050HUD.cpp */,
+				66EC233FA4C6D51A5158A3C7 /* Survior2050HUD.h */,
+				DC9526E40B846203ED59E36D /* Survior2050Projectile.cpp */,
+				A29399A20CB728473303620E /* Survior2050Projectile.h */,
+			);
+			name = Survior2050;
+			path = Source/Survior2050;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		222E40A4723D298873AC4C58 /* Survior2050_Build */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG) \"/Users/digantjagtap/Documents/Unreal Projects/Survior2050/Survior2050.uproject\"";
+			buildConfigurationList = 521017D3EBB8D540DC207EC1 /* Build configuration list for PBXLegacyTarget "Survior2050_Build" */;
+			buildPhases = (
+			);
+			buildToolPath = /Users/Shared/UnrealEngine/4.10/Engine/Build/BatchFiles/Mac/RocketBuild.sh;
+			buildWorkingDirectory = /Users/Shared/UnrealEngine/4.10;
+			dependencies = (
+			);
+			name = Survior2050_Build;
+			passBuildSettingsInEnvironment = 1;
+			productName = Survior2050_Build;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		8DE7F271482799EA72CFBB48 /* Survior2050_Index */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFE471501F961D3A429C762E /* Build configuration list for PBXNativeTarget "Survior2050_Index" */;
+			buildPhases = (
+				56D127E0B6F3D8911A4D197D /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Survior2050_Index;
+			productName = Survior2050_Index;
+			productType = "com.apple.product-type.library.static";
+		};
+		B6B63ADED8D3948F28236F13 /* Survior2050 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3DB610D20FFED8EC3759C63 /* Build configuration list for PBXNativeTarget "Survior2050" */;
+			buildPhases = (
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89FBB1654F83B131E95B67B4 /* PBXTargetDependency */,
+			);
+			name = Survior2050;
+			productName = Survior2050;
+			productReference = E78EF5C93F7813401AD755DC /* Survior2050.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		613F54610214FF02B07F178A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+			};
+			buildConfigurationList = 4AB8404C1261E68355CF2407 /* Build configuration list for PBXProject "Survior2050" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4784214602437EF170C41008;
+			productRefGroup = D237E75ECFB89830CDE60566 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6B63ADED8D3948F28236F13 /* Survior2050 */,
+				222E40A4723D298873AC4C58 /* Survior2050_Build */,
+				8DE7F271482799EA72CFBB48 /* Survior2050_Index */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56D127E0B6F3D8911A4D197D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				249A8682CFFD31153CACADE2 /* Survior2050.cpp in Sources */,
+				FD6ED06BF2067211B4E836FC /* Survior2050Character.cpp in Sources */,
+				13A10DD3B0EE17DCCB9EB0F0 /* Survior2050GameMode.cpp in Sources */,
+				E4431A590C6D184AE612BB9A /* Survior2050HUD.cpp in Sources */,
+				2E5A5F739D95DCEBF61FB820 /* Survior2050Projectile.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		89FBB1654F83B131E95B67B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 222E40A4723D298873AC4C58 /* Survior2050_Build */;
+			targetProxy = C1C7ACDD76EF89E38D481E90 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00D853F29022DAAC930630D7 /* Development Editor */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = /Users/Shared/UnrealEngine/4.10/Engine/Binaries/Mac;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = UE4Editor;
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = "Development Editor";
+		};
+		0110645A364E217934566145 /* Shipping */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/digantjagtap/Documents/Unreal Projects/Survior2050/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/digantjagtap/Documents/Unreal Projects/Survior2050/Binaries/Mac";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h;
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/digantjagtap/Documents/Unreal Projects/Survior2050/Intermediate/IOS/Survior2050-Info.plist";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/digantjagtap/Documents/Unreal Projects/Survior2050/Intermediate/Mac/Survior2050-Mac-Shipping-Info.plist";
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				"PRODUCT_NAME[sdk=iphoneos*]" = Survior2050;
+				"PRODUCT_NAME[sdk=macosx*]" = "Survior2050-Mac-Shipping";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = macosx;
+				"SDKROOT[arch=arm*]" = iphoneos;
+				"SDKROOT[arch=x86_64]" = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+			};
+			name = Shipping;
+		};
+		16BB30C1F74BEC3D1708769F /* Shipping */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				UE_BUILD_TARGET_CONFIG = Shipping;
+				UE_BUILD_TARGET_NAME = Survior2050;
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+			};
+			name = Shipping;
+		};
+		1B9E3B7DEB7EED851D6A6B16 /* DebugGame */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				UE_BUILD_TARGET_CONFIG = DebugGame;
+				UE_BUILD_TARGET_NAME = Survior2050;
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+			};
+			name = DebugGame;
+		};
+		23C771656B334DEBDACDBD30 /* DebugGame Editor */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = /Users/Shared/UnrealEngine/4.10/Engine/Binaries/Mac;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = UE4Editor;
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = "DebugGame Editor";
+		};
+		24FE3BF6F48229DC5EEB0682 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/digantjagtap/Documents/Unreal Projects/Survior2050/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/digantjagtap/Documents/Unreal Projects/Survior2050/Binaries/Mac";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h;
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/digantjagtap/Documents/Unreal Projects/Survior2050/Intermediate/IOS/Survior2050-Info.plist";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/digantjagtap/Documents/Unreal Projects/Survior2050/Intermediate/Mac/Survior2050-Info.plist";
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				"PRODUCT_NAME[sdk=iphoneos*]" = Survior2050;
+				"PRODUCT_NAME[sdk=macosx*]" = Survior2050;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = macosx;
+				"SDKROOT[arch=arm*]" = iphoneos;
+				"SDKROOT[arch=x86_64]" = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+			};
+			name = Development;
+		};
+		3F3C5A2513B8FE37C8CD5061 /* DebugGame Editor */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"UE_EDITOR=1",
+					"IS_PROGRAM=0",
+					UNICODE,
+					_UNICODE,
+					__UNREAL__,
+					"IS_MONOLITHIC=0",
+					"WITH_ENGINE=1",
+					"WITH_UNREAL_DEVELOPER_TOOLS=1",
+					"WITH_COREUOBJECT=1",
+					"USE_STATS_WITHOUT_ENGINE=0",
+					"WITH_PLUGIN_SUPPORT=0",
+					"USE_LOGGING_IN_SHIPPING=0",
+					"UE_BUILD_MINIMAL=0",
+					"WITH_EDITOR=1",
+					"WITH_SERVER_CODE=1",
+					"UBT_COMPILED_PLATFORM=Mac",
+					"PLATFORM_MAC=1",
+					"PLATFORM_APPLE=1",
+					"WITH_TTS=0",
+					"WITH_SPEECH_RECOGNITION=0",
+					"WITH_DATABASE_SUPPORT=0",
+					"NDEBUG=1",
+					"UE_BUILD_DEVELOPMENT=1",
+					"ORIGINAL_FILE_NAME=UE4Editor-Survior2050.dylib",
+					"DEPRECATED_FORGAME=DEPRECATED",
+					"SURVIOR2050_API=",
+					"UE_ENABLE_ICU=1",
+					"WITH_STEAMWORKS=1",
+					"WITH_DIRECTXMATH=0",
+					"CORE_API=",
+					"COREUOBJECT_API=",
+					"WITH_PHYSX=1",
+					"WITH_APEX=1",
+					WITH_RUNTIME_PHYSICS_COOKING,
+					"WITH_BOX2D=0",
+					"WITH_RECAST=1",
+					"ENGINE_API=",
+					"JSON_API=",
+					"WITH_FREETYPE=1",
+					"SLATECORE_API=",
+					"INPUTCORE_API=",
+					"SLATE_API=",
+					"MESSAGING_API=",
+					"RENDERCORE_API=",
+					"RHI_API=",
+					"SHADERCORE_API=",
+					"ASSETREGISTRY_API=",
+					"COOKINGSTATS_API=",
+					"ENGINEMESSAGES_API=",
+					"ENGINESETTINGS_API=",
+					"SYNTHBENCHMARK_API=",
+					"RENDERER_API=",
+					"AIMODULE_API=",
+					"GAMEPLAYTAGS_API=",
+					"GAMEPLAYTASKS_API=",
+					"DATABASESUPPORT_API=",
+					"UNREALED_API=",
+					"BSPMODE_API=",
+					"DIRECTORYWATCHER_API=",
+					"DOCUMENTATION_API=",
+					"PROJECTS_API=",
+					"SANDBOXFILE_API=",
+					"EDITORSTYLE_API=",
+					"SOURCECONTROL_API=",
+					"UNREALEDMESSAGES_API=",
+					"BLUEPRINTGRAPH_API=",
+					"HTTP_PACKAGE=1",
+					"HTTP_API=",
+					"UNREALAUDIO_API=",
+					"NIAGARA_API=",
+					"MOVIESCENE_API=",
+					"VECTORVM_API=",
+					"UNREALAUDIOCOREAUDIO_API=",
+					"USERFEEDBACK_API=",
+					"COLLECTIONMANAGER_API=",
+					"NIAGARAEDITOR_API=",
+					"GRAPHEDITOR_API=",
+					"INTROTUTORIALS_API=",
+					"LEVELEDITOR_API=",
+					"SETTINGS_API=",
+					"ADDCONTENTDIALOG_API=",
+					"KISMET_API=",
+					"PACKETHANDLER_API=",
+					"MONOLITHIC_BUILD=1",
+				);
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				HEADER_SEARCH_PATHS = "";
+				USER_HEADER_SEARCH_PATHS = "/Users/Shared/UnrealEngine/4.10/Engine/Source ../../Source ../Build/Mac/UE4Editor/Inc/Survior2050 /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Internationalization /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Async /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Concurrency /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Containers /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Delegates /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/GenericPlatform /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/HAL /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Logging /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Math /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Misc /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Modules /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Modules/Boilerplate /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/ProfilingDebugging /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Serialization /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Serialization/Csv /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Stats /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Templates /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/UObject /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Apple /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Mac /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/CoreUObject/Classes /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/CoreUObject/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/CoreUObject/Public/Blueprint /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/CoreUObject/Public/Misc /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/CoreUObject/Public/Serialization /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/CoreUObject/Public/Templates /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/CoreUObject/Public/UObject /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/CoreUObject /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/CoreUObject /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Engine/Classes /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Engine/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Engine/Public/AI /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Engine/Public/Animation /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Engine/Public/EdGraph /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Engine/Public/Features /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Engine/Public/Net /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Engine/Public/Slate /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Engine/Public/Tests /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Engine/Public/VisualLogger /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Engine/Public/AI/Navigation /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Json/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Json/Public/Dom /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Json/Public/Policies /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Json/Public/Serialization /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Json /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Json /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public/Animation /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public/Application /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public/Brushes /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public/Fonts /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public/Input /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public/Layout /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public/Logging /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public/Rendering /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public/Sound /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public/Stats /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public/Styling /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public/Textures /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public/Types /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public/Widgets /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SlateCore /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/InputCore/Classes /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/InputCore/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/InputCore /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/InputCore /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Framework /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Widgets /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Framework/Application /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Framework/Commands /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Framework/Docking /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Framework/Layout /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Framework/MultiBox /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Framework/Notifications /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Framework/Styling /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Framework/Text /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Framework/Views /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Framework/Text/Android /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Framework/Text/IOS /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Widgets/Colors /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Widgets/Docking /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Widgets/Images /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Widgets/Input /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Widgets/LayerManager /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Widgets/Layout /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Widgets/Navigation /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Widgets/Notifications /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Widgets/Text /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Widgets/Views /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Slate /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Messaging/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Messaging/Public/Deprecated /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Messaging/Public/Helpers /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Messaging /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Messaging /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/RenderCore/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/RenderCore /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/RenderCore /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/RHI/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/RHI /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/RHI /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/ShaderCore/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ShaderCore /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/ShaderCore /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/AssetRegistry/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AssetRegistry /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/AssetRegistry /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/CookingStats/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/CookingStats /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/CookingStats /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/EngineMessages/Classes /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/EngineMessages/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EngineMessages /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/EngineMessages /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/EngineSettings/Classes /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/EngineSettings/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EngineSettings /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/EngineSettings /Users/Shared/UnrealEngine/4.10/Engine/Source/Developer/SynthBenchmark/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SynthBenchmark /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Renderer/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Renderer /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Renderer /Users/Shared/UnrealEngine/4.10/Engine/Source/Developer/SynthBenchmark /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/AIModule/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/AIModule/Classes /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AIModule /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/GameplayTags/Classes /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/GameplayTags/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GameplayTags /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/GameplayTags /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/GameplayTasks/Classes /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/GameplayTasks/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GameplayTasks /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/GameplayTasks /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/AIModule /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/DatabaseSupport/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/DatabaseSupport /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/DatabaseSupport /Users/Shared/UnrealEngine/4.10/Engine/Source/Programs/UnrealLightmass/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Classes /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Public/AutoReimport /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Public/Commandlets /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Public/Dialogs /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Public/DragAndDrop /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Public/Features /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Public/Kismet2 /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Public/Layers /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Public/Localization /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Public/Settings /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Public/Tests /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Public/Toolkits /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealEd /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/BspMode/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/BspMode /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/BspMode /Users/Shared/UnrealEngine/4.10/Engine/Source/Developer/DirectoryWatcher/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/DirectoryWatcher /Users/Shared/UnrealEngine/4.10/Engine/Source/Developer/DirectoryWatcher /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/Documentation/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Documentation /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/Documentation /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Projects/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Projects/Public/Interfaces /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Projects /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Projects /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SandboxFile/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SandboxFile /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SandboxFile /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/EditorStyle/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/EditorStyle/Public/Classes /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/EditorStyle/Public/Interfaces /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EditorStyle /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/EditorStyle /Users/Shared/UnrealEngine/4.10/Engine/Source/Developer/SourceControl/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Developer/SourceControl/Public/Tests /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SourceControl /Users/Shared/UnrealEngine/4.10/Engine/Source/Developer/SourceControl /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEdMessages/Classes /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEdMessages/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealEdMessages /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEdMessages /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/BlueprintGraph/Classes /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/BlueprintGraph/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/BlueprintGraph /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/BlueprintGraph /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Online/HTTP/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Online/HTTP/Public/Interfaces /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/HTTP /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Online/HTTP /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/UnrealAudio/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealAudio /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/UnrealAudio /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Niagara/Classes /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Niagara/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Niagara /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/MovieScene/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/MovieScene /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/MovieScene /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Niagara /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/VectorVM/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/VectorVM /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/VectorVM /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealAudioCoreAudio /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Mac/UnrealAudioCoreAudio /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UserFeedback/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UserFeedback /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UserFeedback /Users/Shared/UnrealEngine/4.10/Engine/Source/Developer/CollectionManager/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/CollectionManager /Users/Shared/UnrealEngine/4.10/Engine/Source/Developer/CollectionManager /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/NiagaraEditor/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/NiagaraEditor /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/GraphEditor/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/GraphEditor/Public/KismetNodes /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GraphEditor /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/IntroTutorials/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/IntroTutorials /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/IntroTutorials /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/GraphEditor /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/LevelEditor/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/LevelEditor /Users/Shared/UnrealEngine/4.10/Engine/Source/Developer/Settings/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Settings /Users/Shared/UnrealEngine/4.10/Engine/Source/Developer/Settings /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/LevelEditor /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/NiagaraEditor /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/AddContentDialog/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AddContentDialog /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/AddContentDialog /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/Kismet/Classes /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/Kismet/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/Kismet/Public/Nodes /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/Kismet/Public/WorkflowOrientedApp /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Kismet /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/Kismet /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/PacketHandlers/PacketHandler/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/PacketHandler /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/PacketHandlers/PacketHandler /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Engine ../../Source/Survior2050";
+				USE_HEADERMAP = NO;
+			};
+			name = "DebugGame Editor";
+		};
+		4347DFC294321B931637F1FA /* Development Editor */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = macosx;
+				UE_BUILD_TARGET_CONFIG = Development;
+				UE_BUILD_TARGET_NAME = Survior2050Editor;
+				VALID_ARCHS = x86_64;
+			};
+			name = "Development Editor";
+		};
+		4BF4B5FD407F89255D77145C /* Shipping */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"UE_EDITOR=1",
+					"IS_PROGRAM=0",
+					UNICODE,
+					_UNICODE,
+					__UNREAL__,
+					"IS_MONOLITHIC=0",
+					"WITH_ENGINE=1",
+					"WITH_UNREAL_DEVELOPER_TOOLS=1",
+					"WITH_COREUOBJECT=1",
+					"USE_STATS_WITHOUT_ENGINE=0",
+					"WITH_PLUGIN_SUPPORT=0",
+					"USE_LOGGING_IN_SHIPPING=0",
+					"UE_BUILD_MINIMAL=0",
+					"WITH_EDITOR=1",
+					"WITH_SERVER_CODE=1",
+					"UBT_COMPILED_PLATFORM=Mac",
+					"PLATFORM_MAC=1",
+					"PLATFORM_APPLE=1",
+					"WITH_TTS=0",
+					"WITH_SPEECH_RECOGNITION=0",
+					"WITH_DATABASE_SUPPORT=0",
+					"NDEBUG=1",
+					"UE_BUILD_DEVELOPMENT=1",
+					"ORIGINAL_FILE_NAME=UE4Editor-Survior2050.dylib",
+					"DEPRECATED_FORGAME=DEPRECATED",
+					"SURVIOR2050_API=",
+					"UE_ENABLE_ICU=1",
+					"WITH_STEAMWORKS=1",
+					"WITH_DIRECTXMATH=0",
+					"CORE_API=",
+					"COREUOBJECT_API=",
+					"WITH_PHYSX=1",
+					"WITH_APEX=1",
+					WITH_RUNTIME_PHYSICS_COOKING,
+					"WITH_BOX2D=0",
+					"WITH_RECAST=1",
+					"ENGINE_API=",
+					"JSON_API=",
+					"WITH_FREETYPE=1",
+					"SLATECORE_API=",
+					"INPUTCORE_API=",
+					"SLATE_API=",
+					"MESSAGING_API=",
+					"RENDERCORE_API=",
+					"RHI_API=",
+					"SHADERCORE_API=",
+					"ASSETREGISTRY_API=",
+					"COOKINGSTATS_API=",
+					"ENGINEMESSAGES_API=",
+					"ENGINESETTINGS_API=",
+					"SYNTHBENCHMARK_API=",
+					"RENDERER_API=",
+					"AIMODULE_API=",
+					"GAMEPLAYTAGS_API=",
+					"GAMEPLAYTASKS_API=",
+					"DATABASESUPPORT_API=",
+					"UNREALED_API=",
+					"BSPMODE_API=",
+					"DIRECTORYWATCHER_API=",
+					"DOCUMENTATION_API=",
+					"PROJECTS_API=",
+					"SANDBOXFILE_API=",
+					"EDITORSTYLE_API=",
+					"SOURCECONTROL_API=",
+					"UNREALEDMESSAGES_API=",
+					"BLUEPRINTGRAPH_API=",
+					"HTTP_PACKAGE=1",
+					"HTTP_API=",
+					"UNREALAUDIO_API=",
+					"NIAGARA_API=",
+					"MOVIESCENE_API=",
+					"VECTORVM_API=",
+					"UNREALAUDIOCOREAUDIO_API=",
+					"USERFEEDBACK_API=",
+					"COLLECTIONMANAGER_API=",
+					"NIAGARAEDITOR_API=",
+					"GRAPHEDITOR_API=",
+					"INTROTUTORIALS_API=",
+					"LEVELEDITOR_API=",
+					"SETTINGS_API=",
+					"ADDCONTENTDIALOG_API=",
+					"KISMET_API=",
+					"PACKETHANDLER_API=",
+					"MONOLITHIC_BUILD=1",
+				);
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				HEADER_SEARCH_PATHS = "";
+				USER_HEADER_SEARCH_PATHS = "/Users/Shared/UnrealEngine/4.10/Engine/Source ../../Source ../Build/Mac/UE4Editor/Inc/Survior2050 /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Internationalization /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Async /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Concurrency /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Containers /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Delegates /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/GenericPlatform /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/HAL /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Logging /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Math /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Misc /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Modules /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Modules/Boilerplate /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/ProfilingDebugging /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Serialization /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Serialization/Csv /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Stats /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Templates /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/UObject /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Apple /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Mac /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/CoreUObject/Classes /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/CoreUObject/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/CoreUObject/Public/Blueprint /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/CoreUObject/Public/Misc /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/CoreUObject/Public/Serialization /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/CoreUObject/Public/Templates /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/CoreUObject/Public/UObject /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/CoreUObject /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/CoreUObject /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Engine/Classes /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Engine/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Engine/Public/AI /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Engine/Public/Animation /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Engine/Public/EdGraph /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Engine/Public/Features /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Engine/Public/Net /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Engine/Public/Slate /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Engine/Public/Tests /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Engine/Public/VisualLogger /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Engine/Public/AI/Navigation /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Json/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Json/Public/Dom /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Json/Public/Policies /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Json/Public/Serialization /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Json /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Json /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public/Animation /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public/Application /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public/Brushes /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public/Fonts /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public/Input /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public/Layout /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public/Logging /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public/Rendering /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public/Sound /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public/Stats /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public/Styling /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public/Textures /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public/Types /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public/Widgets /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SlateCore /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/InputCore/Classes /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/InputCore/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/InputCore /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/InputCore /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Framework /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Widgets /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Framework/Application /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Framework/Commands /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Framework/Docking /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Framework/Layout /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Framework/MultiBox /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Framework/Notifications /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Framework/Styling /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Framework/Text /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Framework/Views /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Framework/Text/Android /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Framework/Text/IOS /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Widgets/Colors /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Widgets/Docking /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Widgets/Images /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Widgets/Input /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Widgets/LayerManager /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Widgets/Layout /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Widgets/Navigation /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Widgets/Notifications /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Widgets/Text /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Widgets/Views /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Slate /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Messaging/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Messaging/Public/Deprecated /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Messaging/Public/Helpers /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Messaging /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Messaging /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/RenderCore/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/RenderCore /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/RenderCore /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/RHI/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/RHI /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/RHI /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/ShaderCore/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ShaderCore /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/ShaderCore /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/AssetRegistry/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AssetRegistry /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/AssetRegistry /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/CookingStats/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/CookingStats /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/CookingStats /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/EngineMessages/Classes /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/EngineMessages/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EngineMessages /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/EngineMessages /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/EngineSettings/Classes /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/EngineSettings/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EngineSettings /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/EngineSettings /Users/Shared/UnrealEngine/4.10/Engine/Source/Developer/SynthBenchmark/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SynthBenchmark /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Renderer/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Renderer /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Renderer /Users/Shared/UnrealEngine/4.10/Engine/Source/Developer/SynthBenchmark /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/AIModule/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/AIModule/Classes /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AIModule /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/GameplayTags/Classes /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/GameplayTags/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GameplayTags /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/GameplayTags /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/GameplayTasks/Classes /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/GameplayTasks/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GameplayTasks /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/GameplayTasks /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/AIModule /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/DatabaseSupport/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/DatabaseSupport /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/DatabaseSupport /Users/Shared/UnrealEngine/4.10/Engine/Source/Programs/UnrealLightmass/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Classes /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Public/AutoReimport /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Public/Commandlets /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Public/Dialogs /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Public/DragAndDrop /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Public/Features /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Public/Kismet2 /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Public/Layers /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Public/Localization /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Public/Settings /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Public/Tests /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Public/Toolkits /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealEd /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/BspMode/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/BspMode /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/BspMode /Users/Shared/UnrealEngine/4.10/Engine/Source/Developer/DirectoryWatcher/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/DirectoryWatcher /Users/Shared/UnrealEngine/4.10/Engine/Source/Developer/DirectoryWatcher /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/Documentation/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Documentation /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/Documentation /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Projects/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Projects/Public/Interfaces /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Projects /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Projects /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SandboxFile/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SandboxFile /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SandboxFile /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/EditorStyle/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/EditorStyle/Public/Classes /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/EditorStyle/Public/Interfaces /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EditorStyle /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/EditorStyle /Users/Shared/UnrealEngine/4.10/Engine/Source/Developer/SourceControl/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Developer/SourceControl/Public/Tests /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SourceControl /Users/Shared/UnrealEngine/4.10/Engine/Source/Developer/SourceControl /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEdMessages/Classes /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEdMessages/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealEdMessages /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEdMessages /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/BlueprintGraph/Classes /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/BlueprintGraph/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/BlueprintGraph /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/BlueprintGraph /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Online/HTTP/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Online/HTTP/Public/Interfaces /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/HTTP /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Online/HTTP /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/UnrealAudio/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealAudio /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/UnrealAudio /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Niagara/Classes /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Niagara/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Niagara /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/MovieScene/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/MovieScene /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/MovieScene /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Niagara /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/VectorVM/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/VectorVM /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/VectorVM /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealAudioCoreAudio /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Mac/UnrealAudioCoreAudio /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UserFeedback/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UserFeedback /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UserFeedback /Users/Shared/UnrealEngine/4.10/Engine/Source/Developer/CollectionManager/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/CollectionManager /Users/Shared/UnrealEngine/4.10/Engine/Source/Developer/CollectionManager /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/NiagaraEditor/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/NiagaraEditor /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/GraphEditor/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/GraphEditor/Public/KismetNodes /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GraphEditor /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/IntroTutorials/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/IntroTutorials /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/IntroTutorials /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/GraphEditor /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/LevelEditor/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/LevelEditor /Users/Shared/UnrealEngine/4.10/Engine/Source/Developer/Settings/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Settings /Users/Shared/UnrealEngine/4.10/Engine/Source/Developer/Settings /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/LevelEditor /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/NiagaraEditor /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/AddContentDialog/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AddContentDialog /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/AddContentDialog /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/Kismet/Classes /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/Kismet/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/Kismet/Public/Nodes /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/Kismet/Public/WorkflowOrientedApp /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Kismet /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/Kismet /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/PacketHandlers/PacketHandler/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/PacketHandler /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/PacketHandlers/PacketHandler /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Engine ../../Source/Survior2050";
+				USE_HEADERMAP = NO;
+			};
+			name = Shipping;
+		};
+		7A88B39C37F439617FBAF031 /* DebugGame */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/digantjagtap/Documents/Unreal Projects/Survior2050/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/digantjagtap/Documents/Unreal Projects/Survior2050/Binaries/Mac";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h;
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/digantjagtap/Documents/Unreal Projects/Survior2050/Intermediate/IOS/Survior2050-Info.plist";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/digantjagtap/Documents/Unreal Projects/Survior2050/Intermediate/Mac/Survior2050-Mac-DebugGame-Info.plist";
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				"PRODUCT_NAME[sdk=iphoneos*]" = Survior2050;
+				"PRODUCT_NAME[sdk=macosx*]" = "Survior2050-Mac-DebugGame";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = macosx;
+				"SDKROOT[arch=arm*]" = iphoneos;
+				"SDKROOT[arch=x86_64]" = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+			};
+			name = DebugGame;
+		};
+		7C1E5296AECC9C89C3F7F180 /* Shipping */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/digantjagtap/Documents/Unreal Projects/Survior2050/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/digantjagtap/Documents/Unreal Projects/Survior2050/Binaries/Mac";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h;
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/digantjagtap/Documents/Unreal Projects/Survior2050/Intermediate/IOS/Survior2050-Info.plist";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/digantjagtap/Documents/Unreal Projects/Survior2050/Intermediate/Mac/Survior2050-Mac-Shipping-Info.plist";
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				"PRODUCT_NAME[sdk=iphoneos*]" = Survior2050;
+				"PRODUCT_NAME[sdk=macosx*]" = "Survior2050-Mac-Shipping";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = macosx;
+				"SDKROOT[arch=arm*]" = iphoneos;
+				"SDKROOT[arch=x86_64]" = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+			};
+			name = Shipping;
+		};
+		8257A4E950F731F7D3631B68 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				UE_BUILD_TARGET_CONFIG = Development;
+				UE_BUILD_TARGET_NAME = Survior2050;
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+			};
+			name = Development;
+		};
+		B12650611E69AEC1E3D2F87F /* Development Editor */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = /Users/Shared/UnrealEngine/4.10/Engine/Binaries/Mac;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = UE4Editor;
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = "Development Editor";
+		};
+		B92B2FA8CD7FBE1E584D662D /* DebugGame */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/digantjagtap/Documents/Unreal Projects/Survior2050/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/digantjagtap/Documents/Unreal Projects/Survior2050/Binaries/Mac";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h;
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/digantjagtap/Documents/Unreal Projects/Survior2050/Intermediate/IOS/Survior2050-Info.plist";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/digantjagtap/Documents/Unreal Projects/Survior2050/Intermediate/Mac/Survior2050-Mac-DebugGame-Info.plist";
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				"PRODUCT_NAME[sdk=iphoneos*]" = Survior2050;
+				"PRODUCT_NAME[sdk=macosx*]" = "Survior2050-Mac-DebugGame";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = macosx;
+				"SDKROOT[arch=arm*]" = iphoneos;
+				"SDKROOT[arch=x86_64]" = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+			};
+			name = DebugGame;
+		};
+		C59194FFFCD2D9CE380D3DAF /* DebugGame Editor */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = macosx;
+				UE_BUILD_TARGET_CONFIG = DebugGame;
+				UE_BUILD_TARGET_NAME = Survior2050Editor;
+				VALID_ARCHS = x86_64;
+			};
+			name = "DebugGame Editor";
+		};
+		E494D464905610A1594F6082 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"UE_EDITOR=1",
+					"IS_PROGRAM=0",
+					UNICODE,
+					_UNICODE,
+					__UNREAL__,
+					"IS_MONOLITHIC=0",
+					"WITH_ENGINE=1",
+					"WITH_UNREAL_DEVELOPER_TOOLS=1",
+					"WITH_COREUOBJECT=1",
+					"USE_STATS_WITHOUT_ENGINE=0",
+					"WITH_PLUGIN_SUPPORT=0",
+					"USE_LOGGING_IN_SHIPPING=0",
+					"UE_BUILD_MINIMAL=0",
+					"WITH_EDITOR=1",
+					"WITH_SERVER_CODE=1",
+					"UBT_COMPILED_PLATFORM=Mac",
+					"PLATFORM_MAC=1",
+					"PLATFORM_APPLE=1",
+					"WITH_TTS=0",
+					"WITH_SPEECH_RECOGNITION=0",
+					"WITH_DATABASE_SUPPORT=0",
+					"NDEBUG=1",
+					"UE_BUILD_DEVELOPMENT=1",
+					"ORIGINAL_FILE_NAME=UE4Editor-Survior2050.dylib",
+					"DEPRECATED_FORGAME=DEPRECATED",
+					"SURVIOR2050_API=",
+					"UE_ENABLE_ICU=1",
+					"WITH_STEAMWORKS=1",
+					"WITH_DIRECTXMATH=0",
+					"CORE_API=",
+					"COREUOBJECT_API=",
+					"WITH_PHYSX=1",
+					"WITH_APEX=1",
+					WITH_RUNTIME_PHYSICS_COOKING,
+					"WITH_BOX2D=0",
+					"WITH_RECAST=1",
+					"ENGINE_API=",
+					"JSON_API=",
+					"WITH_FREETYPE=1",
+					"SLATECORE_API=",
+					"INPUTCORE_API=",
+					"SLATE_API=",
+					"MESSAGING_API=",
+					"RENDERCORE_API=",
+					"RHI_API=",
+					"SHADERCORE_API=",
+					"ASSETREGISTRY_API=",
+					"COOKINGSTATS_API=",
+					"ENGINEMESSAGES_API=",
+					"ENGINESETTINGS_API=",
+					"SYNTHBENCHMARK_API=",
+					"RENDERER_API=",
+					"AIMODULE_API=",
+					"GAMEPLAYTAGS_API=",
+					"GAMEPLAYTASKS_API=",
+					"DATABASESUPPORT_API=",
+					"UNREALED_API=",
+					"BSPMODE_API=",
+					"DIRECTORYWATCHER_API=",
+					"DOCUMENTATION_API=",
+					"PROJECTS_API=",
+					"SANDBOXFILE_API=",
+					"EDITORSTYLE_API=",
+					"SOURCECONTROL_API=",
+					"UNREALEDMESSAGES_API=",
+					"BLUEPRINTGRAPH_API=",
+					"HTTP_PACKAGE=1",
+					"HTTP_API=",
+					"UNREALAUDIO_API=",
+					"NIAGARA_API=",
+					"MOVIESCENE_API=",
+					"VECTORVM_API=",
+					"UNREALAUDIOCOREAUDIO_API=",
+					"USERFEEDBACK_API=",
+					"COLLECTIONMANAGER_API=",
+					"NIAGARAEDITOR_API=",
+					"GRAPHEDITOR_API=",
+					"INTROTUTORIALS_API=",
+					"LEVELEDITOR_API=",
+					"SETTINGS_API=",
+					"ADDCONTENTDIALOG_API=",
+					"KISMET_API=",
+					"PACKETHANDLER_API=",
+					"MONOLITHIC_BUILD=1",
+				);
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				HEADER_SEARCH_PATHS = "";
+				USER_HEADER_SEARCH_PATHS = "/Users/Shared/UnrealEngine/4.10/Engine/Source ../../Source ../Build/Mac/UE4Editor/Inc/Survior2050 /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Internationalization /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Async /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Concurrency /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Containers /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Delegates /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/GenericPlatform /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/HAL /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Logging /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Math /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Misc /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Modules /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Modules/Boilerplate /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/ProfilingDebugging /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Serialization /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Serialization/Csv /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Stats /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Templates /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/UObject /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Apple /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Mac /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/CoreUObject/Classes /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/CoreUObject/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/CoreUObject/Public/Blueprint /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/CoreUObject/Public/Misc /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/CoreUObject/Public/Serialization /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/CoreUObject/Public/Templates /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/CoreUObject/Public/UObject /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/CoreUObject /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/CoreUObject /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Engine/Classes /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Engine/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Engine/Public/AI /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Engine/Public/Animation /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Engine/Public/EdGraph /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Engine/Public/Features /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Engine/Public/Net /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Engine/Public/Slate /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Engine/Public/Tests /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Engine/Public/VisualLogger /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Engine/Public/AI/Navigation /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Json/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Json/Public/Dom /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Json/Public/Policies /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Json/Public/Serialization /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Json /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Json /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public/Animation /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public/Application /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public/Brushes /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public/Fonts /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public/Input /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public/Layout /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public/Logging /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public/Rendering /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public/Sound /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public/Stats /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public/Styling /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public/Textures /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public/Types /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public/Widgets /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SlateCore /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/InputCore/Classes /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/InputCore/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/InputCore /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/InputCore /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Framework /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Widgets /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Framework/Application /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Framework/Commands /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Framework/Docking /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Framework/Layout /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Framework/MultiBox /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Framework/Notifications /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Framework/Styling /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Framework/Text /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Framework/Views /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Framework/Text/Android /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Framework/Text/IOS /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Widgets/Colors /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Widgets/Docking /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Widgets/Images /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Widgets/Input /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Widgets/LayerManager /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Widgets/Layout /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Widgets/Navigation /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Widgets/Notifications /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Widgets/Text /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Widgets/Views /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Slate /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Messaging/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Messaging/Public/Deprecated /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Messaging/Public/Helpers /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Messaging /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Messaging /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/RenderCore/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/RenderCore /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/RenderCore /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/RHI/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/RHI /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/RHI /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/ShaderCore/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ShaderCore /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/ShaderCore /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/AssetRegistry/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AssetRegistry /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/AssetRegistry /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/CookingStats/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/CookingStats /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/CookingStats /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/EngineMessages/Classes /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/EngineMessages/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EngineMessages /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/EngineMessages /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/EngineSettings/Classes /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/EngineSettings/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EngineSettings /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/EngineSettings /Users/Shared/UnrealEngine/4.10/Engine/Source/Developer/SynthBenchmark/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SynthBenchmark /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Renderer/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Renderer /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Renderer /Users/Shared/UnrealEngine/4.10/Engine/Source/Developer/SynthBenchmark /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/AIModule/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/AIModule/Classes /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AIModule /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/GameplayTags/Classes /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/GameplayTags/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GameplayTags /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/GameplayTags /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/GameplayTasks/Classes /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/GameplayTasks/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GameplayTasks /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/GameplayTasks /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/AIModule /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/DatabaseSupport/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/DatabaseSupport /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/DatabaseSupport /Users/Shared/UnrealEngine/4.10/Engine/Source/Programs/UnrealLightmass/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Classes /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Public/AutoReimport /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Public/Commandlets /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Public/Dialogs /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Public/DragAndDrop /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Public/Features /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Public/Kismet2 /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Public/Layers /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Public/Localization /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Public/Settings /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Public/Tests /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Public/Toolkits /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealEd /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/BspMode/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/BspMode /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/BspMode /Users/Shared/UnrealEngine/4.10/Engine/Source/Developer/DirectoryWatcher/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/DirectoryWatcher /Users/Shared/UnrealEngine/4.10/Engine/Source/Developer/DirectoryWatcher /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/Documentation/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Documentation /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/Documentation /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Projects/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Projects/Public/Interfaces /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Projects /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Projects /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SandboxFile/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SandboxFile /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SandboxFile /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/EditorStyle/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/EditorStyle/Public/Classes /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/EditorStyle/Public/Interfaces /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EditorStyle /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/EditorStyle /Users/Shared/UnrealEngine/4.10/Engine/Source/Developer/SourceControl/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Developer/SourceControl/Public/Tests /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SourceControl /Users/Shared/UnrealEngine/4.10/Engine/Source/Developer/SourceControl /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEdMessages/Classes /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEdMessages/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealEdMessages /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEdMessages /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/BlueprintGraph/Classes /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/BlueprintGraph/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/BlueprintGraph /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/BlueprintGraph /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Online/HTTP/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Online/HTTP/Public/Interfaces /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/HTTP /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Online/HTTP /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/UnrealAudio/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealAudio /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/UnrealAudio /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Niagara/Classes /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Niagara/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Niagara /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/MovieScene/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/MovieScene /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/MovieScene /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Niagara /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/VectorVM/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/VectorVM /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/VectorVM /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealAudioCoreAudio /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Mac/UnrealAudioCoreAudio /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UserFeedback/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UserFeedback /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UserFeedback /Users/Shared/UnrealEngine/4.10/Engine/Source/Developer/CollectionManager/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/CollectionManager /Users/Shared/UnrealEngine/4.10/Engine/Source/Developer/CollectionManager /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/NiagaraEditor/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/NiagaraEditor /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/GraphEditor/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/GraphEditor/Public/KismetNodes /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GraphEditor /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/IntroTutorials/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/IntroTutorials /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/IntroTutorials /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/GraphEditor /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/LevelEditor/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/LevelEditor /Users/Shared/UnrealEngine/4.10/Engine/Source/Developer/Settings/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Settings /Users/Shared/UnrealEngine/4.10/Engine/Source/Developer/Settings /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/LevelEditor /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/NiagaraEditor /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/AddContentDialog/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AddContentDialog /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/AddContentDialog /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/Kismet/Classes /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/Kismet/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/Kismet/Public/Nodes /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/Kismet/Public/WorkflowOrientedApp /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Kismet /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/Kismet /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/PacketHandlers/PacketHandler/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/PacketHandler /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/PacketHandlers/PacketHandler /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Engine ../../Source/Survior2050";
+				USE_HEADERMAP = NO;
+			};
+			name = Development;
+		};
+		EA9C9A2A4AF3BC101D9DE20B /* DebugGame Editor */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = /Users/Shared/UnrealEngine/4.10/Engine/Binaries/Mac;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = UE4Editor;
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = "DebugGame Editor";
+		};
+		F2B9FF6C00251986A83779DA /* DebugGame */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"UE_EDITOR=1",
+					"IS_PROGRAM=0",
+					UNICODE,
+					_UNICODE,
+					__UNREAL__,
+					"IS_MONOLITHIC=0",
+					"WITH_ENGINE=1",
+					"WITH_UNREAL_DEVELOPER_TOOLS=1",
+					"WITH_COREUOBJECT=1",
+					"USE_STATS_WITHOUT_ENGINE=0",
+					"WITH_PLUGIN_SUPPORT=0",
+					"USE_LOGGING_IN_SHIPPING=0",
+					"UE_BUILD_MINIMAL=0",
+					"WITH_EDITOR=1",
+					"WITH_SERVER_CODE=1",
+					"UBT_COMPILED_PLATFORM=Mac",
+					"PLATFORM_MAC=1",
+					"PLATFORM_APPLE=1",
+					"WITH_TTS=0",
+					"WITH_SPEECH_RECOGNITION=0",
+					"WITH_DATABASE_SUPPORT=0",
+					"NDEBUG=1",
+					"UE_BUILD_DEVELOPMENT=1",
+					"ORIGINAL_FILE_NAME=UE4Editor-Survior2050.dylib",
+					"DEPRECATED_FORGAME=DEPRECATED",
+					"SURVIOR2050_API=",
+					"UE_ENABLE_ICU=1",
+					"WITH_STEAMWORKS=1",
+					"WITH_DIRECTXMATH=0",
+					"CORE_API=",
+					"COREUOBJECT_API=",
+					"WITH_PHYSX=1",
+					"WITH_APEX=1",
+					WITH_RUNTIME_PHYSICS_COOKING,
+					"WITH_BOX2D=0",
+					"WITH_RECAST=1",
+					"ENGINE_API=",
+					"JSON_API=",
+					"WITH_FREETYPE=1",
+					"SLATECORE_API=",
+					"INPUTCORE_API=",
+					"SLATE_API=",
+					"MESSAGING_API=",
+					"RENDERCORE_API=",
+					"RHI_API=",
+					"SHADERCORE_API=",
+					"ASSETREGISTRY_API=",
+					"COOKINGSTATS_API=",
+					"ENGINEMESSAGES_API=",
+					"ENGINESETTINGS_API=",
+					"SYNTHBENCHMARK_API=",
+					"RENDERER_API=",
+					"AIMODULE_API=",
+					"GAMEPLAYTAGS_API=",
+					"GAMEPLAYTASKS_API=",
+					"DATABASESUPPORT_API=",
+					"UNREALED_API=",
+					"BSPMODE_API=",
+					"DIRECTORYWATCHER_API=",
+					"DOCUMENTATION_API=",
+					"PROJECTS_API=",
+					"SANDBOXFILE_API=",
+					"EDITORSTYLE_API=",
+					"SOURCECONTROL_API=",
+					"UNREALEDMESSAGES_API=",
+					"BLUEPRINTGRAPH_API=",
+					"HTTP_PACKAGE=1",
+					"HTTP_API=",
+					"UNREALAUDIO_API=",
+					"NIAGARA_API=",
+					"MOVIESCENE_API=",
+					"VECTORVM_API=",
+					"UNREALAUDIOCOREAUDIO_API=",
+					"USERFEEDBACK_API=",
+					"COLLECTIONMANAGER_API=",
+					"NIAGARAEDITOR_API=",
+					"GRAPHEDITOR_API=",
+					"INTROTUTORIALS_API=",
+					"LEVELEDITOR_API=",
+					"SETTINGS_API=",
+					"ADDCONTENTDIALOG_API=",
+					"KISMET_API=",
+					"PACKETHANDLER_API=",
+					"MONOLITHIC_BUILD=1",
+				);
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				HEADER_SEARCH_PATHS = "";
+				USER_HEADER_SEARCH_PATHS = "/Users/Shared/UnrealEngine/4.10/Engine/Source ../../Source ../Build/Mac/UE4Editor/Inc/Survior2050 /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Internationalization /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Async /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Concurrency /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Containers /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Delegates /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/GenericPlatform /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/HAL /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Logging /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Math /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Misc /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Modules /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Modules/Boilerplate /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/ProfilingDebugging /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Serialization /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Serialization/Csv /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Stats /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Templates /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/UObject /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Apple /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Mac /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/CoreUObject/Classes /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/CoreUObject/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/CoreUObject/Public/Blueprint /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/CoreUObject/Public/Misc /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/CoreUObject/Public/Serialization /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/CoreUObject/Public/Templates /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/CoreUObject/Public/UObject /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/CoreUObject /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/CoreUObject /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Engine/Classes /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Engine/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Engine/Public/AI /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Engine/Public/Animation /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Engine/Public/EdGraph /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Engine/Public/Features /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Engine/Public/Net /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Engine/Public/Slate /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Engine/Public/Tests /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Engine/Public/VisualLogger /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Engine/Public/AI/Navigation /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Json/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Json/Public/Dom /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Json/Public/Policies /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Json/Public/Serialization /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Json /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Json /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public/Animation /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public/Application /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public/Brushes /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public/Fonts /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public/Input /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public/Layout /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public/Logging /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public/Rendering /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public/Sound /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public/Stats /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public/Styling /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public/Textures /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public/Types /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public/Widgets /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SlateCore /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/InputCore/Classes /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/InputCore/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/InputCore /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/InputCore /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Framework /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Widgets /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Framework/Application /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Framework/Commands /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Framework/Docking /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Framework/Layout /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Framework/MultiBox /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Framework/Notifications /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Framework/Styling /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Framework/Text /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Framework/Views /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Framework/Text/Android /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Framework/Text/IOS /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Widgets/Colors /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Widgets/Docking /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Widgets/Images /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Widgets/Input /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Widgets/LayerManager /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Widgets/Layout /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Widgets/Navigation /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Widgets/Notifications /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Widgets/Text /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Widgets/Views /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Slate /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Messaging/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Messaging/Public/Deprecated /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Messaging/Public/Helpers /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Messaging /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Messaging /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/RenderCore/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/RenderCore /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/RenderCore /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/RHI/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/RHI /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/RHI /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/ShaderCore/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ShaderCore /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/ShaderCore /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/AssetRegistry/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AssetRegistry /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/AssetRegistry /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/CookingStats/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/CookingStats /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/CookingStats /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/EngineMessages/Classes /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/EngineMessages/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EngineMessages /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/EngineMessages /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/EngineSettings/Classes /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/EngineSettings/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EngineSettings /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/EngineSettings /Users/Shared/UnrealEngine/4.10/Engine/Source/Developer/SynthBenchmark/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SynthBenchmark /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Renderer/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Renderer /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Renderer /Users/Shared/UnrealEngine/4.10/Engine/Source/Developer/SynthBenchmark /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/AIModule/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/AIModule/Classes /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AIModule /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/GameplayTags/Classes /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/GameplayTags/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GameplayTags /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/GameplayTags /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/GameplayTasks/Classes /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/GameplayTasks/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GameplayTasks /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/GameplayTasks /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/AIModule /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/DatabaseSupport/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/DatabaseSupport /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/DatabaseSupport /Users/Shared/UnrealEngine/4.10/Engine/Source/Programs/UnrealLightmass/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Classes /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Public/AutoReimport /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Public/Commandlets /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Public/Dialogs /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Public/DragAndDrop /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Public/Features /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Public/Kismet2 /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Public/Layers /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Public/Localization /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Public/Settings /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Public/Tests /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Public/Toolkits /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealEd /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/BspMode/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/BspMode /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/BspMode /Users/Shared/UnrealEngine/4.10/Engine/Source/Developer/DirectoryWatcher/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/DirectoryWatcher /Users/Shared/UnrealEngine/4.10/Engine/Source/Developer/DirectoryWatcher /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/Documentation/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Documentation /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/Documentation /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Projects/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Projects/Public/Interfaces /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Projects /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Projects /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SandboxFile/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SandboxFile /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SandboxFile /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/EditorStyle/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/EditorStyle/Public/Classes /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/EditorStyle/Public/Interfaces /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EditorStyle /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/EditorStyle /Users/Shared/UnrealEngine/4.10/Engine/Source/Developer/SourceControl/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Developer/SourceControl/Public/Tests /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SourceControl /Users/Shared/UnrealEngine/4.10/Engine/Source/Developer/SourceControl /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEdMessages/Classes /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEdMessages/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealEdMessages /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEdMessages /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/BlueprintGraph/Classes /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/BlueprintGraph/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/BlueprintGraph /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/BlueprintGraph /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Online/HTTP/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Online/HTTP/Public/Interfaces /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/HTTP /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Online/HTTP /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/UnrealAudio/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealAudio /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/UnrealAudio /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Niagara/Classes /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Niagara/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Niagara /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/MovieScene/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/MovieScene /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/MovieScene /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Niagara /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/VectorVM/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/VectorVM /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/VectorVM /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealAudioCoreAudio /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Mac/UnrealAudioCoreAudio /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UserFeedback/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UserFeedback /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UserFeedback /Users/Shared/UnrealEngine/4.10/Engine/Source/Developer/CollectionManager/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/CollectionManager /Users/Shared/UnrealEngine/4.10/Engine/Source/Developer/CollectionManager /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/NiagaraEditor/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/NiagaraEditor /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/GraphEditor/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/GraphEditor/Public/KismetNodes /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GraphEditor /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/IntroTutorials/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/IntroTutorials /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/IntroTutorials /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/GraphEditor /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/LevelEditor/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/LevelEditor /Users/Shared/UnrealEngine/4.10/Engine/Source/Developer/Settings/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Settings /Users/Shared/UnrealEngine/4.10/Engine/Source/Developer/Settings /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/LevelEditor /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/NiagaraEditor /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/AddContentDialog/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AddContentDialog /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/AddContentDialog /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/Kismet/Classes /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/Kismet/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/Kismet/Public/Nodes /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/Kismet/Public/WorkflowOrientedApp /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Kismet /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/Kismet /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/PacketHandlers/PacketHandler/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/PacketHandler /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/PacketHandlers/PacketHandler /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Engine ../../Source/Survior2050";
+				USE_HEADERMAP = NO;
+			};
+			name = DebugGame;
+		};
+		F856F658A3E0D2F98D51E138 /* Development Editor */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"UE_EDITOR=1",
+					"IS_PROGRAM=0",
+					UNICODE,
+					_UNICODE,
+					__UNREAL__,
+					"IS_MONOLITHIC=0",
+					"WITH_ENGINE=1",
+					"WITH_UNREAL_DEVELOPER_TOOLS=1",
+					"WITH_COREUOBJECT=1",
+					"USE_STATS_WITHOUT_ENGINE=0",
+					"WITH_PLUGIN_SUPPORT=0",
+					"USE_LOGGING_IN_SHIPPING=0",
+					"UE_BUILD_MINIMAL=0",
+					"WITH_EDITOR=1",
+					"WITH_SERVER_CODE=1",
+					"UBT_COMPILED_PLATFORM=Mac",
+					"PLATFORM_MAC=1",
+					"PLATFORM_APPLE=1",
+					"WITH_TTS=0",
+					"WITH_SPEECH_RECOGNITION=0",
+					"WITH_DATABASE_SUPPORT=0",
+					"NDEBUG=1",
+					"UE_BUILD_DEVELOPMENT=1",
+					"ORIGINAL_FILE_NAME=UE4Editor-Survior2050.dylib",
+					"DEPRECATED_FORGAME=DEPRECATED",
+					"SURVIOR2050_API=",
+					"UE_ENABLE_ICU=1",
+					"WITH_STEAMWORKS=1",
+					"WITH_DIRECTXMATH=0",
+					"CORE_API=",
+					"COREUOBJECT_API=",
+					"WITH_PHYSX=1",
+					"WITH_APEX=1",
+					WITH_RUNTIME_PHYSICS_COOKING,
+					"WITH_BOX2D=0",
+					"WITH_RECAST=1",
+					"ENGINE_API=",
+					"JSON_API=",
+					"WITH_FREETYPE=1",
+					"SLATECORE_API=",
+					"INPUTCORE_API=",
+					"SLATE_API=",
+					"MESSAGING_API=",
+					"RENDERCORE_API=",
+					"RHI_API=",
+					"SHADERCORE_API=",
+					"ASSETREGISTRY_API=",
+					"COOKINGSTATS_API=",
+					"ENGINEMESSAGES_API=",
+					"ENGINESETTINGS_API=",
+					"SYNTHBENCHMARK_API=",
+					"RENDERER_API=",
+					"AIMODULE_API=",
+					"GAMEPLAYTAGS_API=",
+					"GAMEPLAYTASKS_API=",
+					"DATABASESUPPORT_API=",
+					"UNREALED_API=",
+					"BSPMODE_API=",
+					"DIRECTORYWATCHER_API=",
+					"DOCUMENTATION_API=",
+					"PROJECTS_API=",
+					"SANDBOXFILE_API=",
+					"EDITORSTYLE_API=",
+					"SOURCECONTROL_API=",
+					"UNREALEDMESSAGES_API=",
+					"BLUEPRINTGRAPH_API=",
+					"HTTP_PACKAGE=1",
+					"HTTP_API=",
+					"UNREALAUDIO_API=",
+					"NIAGARA_API=",
+					"MOVIESCENE_API=",
+					"VECTORVM_API=",
+					"UNREALAUDIOCOREAUDIO_API=",
+					"USERFEEDBACK_API=",
+					"COLLECTIONMANAGER_API=",
+					"NIAGARAEDITOR_API=",
+					"GRAPHEDITOR_API=",
+					"INTROTUTORIALS_API=",
+					"LEVELEDITOR_API=",
+					"SETTINGS_API=",
+					"ADDCONTENTDIALOG_API=",
+					"KISMET_API=",
+					"PACKETHANDLER_API=",
+					"MONOLITHIC_BUILD=1",
+				);
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				HEADER_SEARCH_PATHS = "";
+				USER_HEADER_SEARCH_PATHS = "/Users/Shared/UnrealEngine/4.10/Engine/Source ../../Source ../Build/Mac/UE4Editor/Inc/Survior2050 /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Internationalization /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Async /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Concurrency /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Containers /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Delegates /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/GenericPlatform /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/HAL /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Logging /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Math /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Misc /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Modules /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Modules/Boilerplate /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/ProfilingDebugging /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Serialization /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Serialization/Csv /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Stats /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Templates /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/UObject /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Apple /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core/Public/Mac /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Core /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/CoreUObject/Classes /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/CoreUObject/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/CoreUObject/Public/Blueprint /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/CoreUObject/Public/Misc /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/CoreUObject/Public/Serialization /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/CoreUObject/Public/Templates /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/CoreUObject/Public/UObject /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/CoreUObject /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/CoreUObject /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Engine/Classes /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Engine/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Engine/Public/AI /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Engine/Public/Animation /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Engine/Public/EdGraph /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Engine/Public/Features /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Engine/Public/Net /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Engine/Public/Slate /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Engine/Public/Tests /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Engine/Public/VisualLogger /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Engine/Public/AI/Navigation /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Json/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Json/Public/Dom /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Json/Public/Policies /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Json/Public/Serialization /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Json /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Json /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public/Animation /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public/Application /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public/Brushes /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public/Fonts /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public/Input /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public/Layout /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public/Logging /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public/Rendering /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public/Sound /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public/Stats /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public/Styling /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public/Textures /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public/Types /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore/Public/Widgets /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SlateCore /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/InputCore/Classes /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/InputCore/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/InputCore /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/InputCore /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SlateCore /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Framework /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Widgets /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Framework/Application /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Framework/Commands /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Framework/Docking /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Framework/Layout /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Framework/MultiBox /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Framework/Notifications /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Framework/Styling /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Framework/Text /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Framework/Views /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Framework/Text/Android /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Framework/Text/IOS /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Widgets/Colors /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Widgets/Docking /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Widgets/Images /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Widgets/Input /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Widgets/LayerManager /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Widgets/Layout /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Widgets/Navigation /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Widgets/Notifications /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Widgets/Text /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate/Public/Widgets/Views /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Slate /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Slate /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Messaging/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Messaging/Public/Deprecated /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Messaging/Public/Helpers /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Messaging /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Messaging /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/RenderCore/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/RenderCore /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/RenderCore /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/RHI/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/RHI /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/RHI /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/ShaderCore/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ShaderCore /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/ShaderCore /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/AssetRegistry/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AssetRegistry /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/AssetRegistry /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/CookingStats/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/CookingStats /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/CookingStats /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/EngineMessages/Classes /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/EngineMessages/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EngineMessages /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/EngineMessages /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/EngineSettings/Classes /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/EngineSettings/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EngineSettings /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/EngineSettings /Users/Shared/UnrealEngine/4.10/Engine/Source/Developer/SynthBenchmark/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SynthBenchmark /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Renderer/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Renderer /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Renderer /Users/Shared/UnrealEngine/4.10/Engine/Source/Developer/SynthBenchmark /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/AIModule/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/AIModule/Classes /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AIModule /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/GameplayTags/Classes /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/GameplayTags/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GameplayTags /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/GameplayTags /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/GameplayTasks/Classes /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/GameplayTasks/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GameplayTasks /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/GameplayTasks /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/AIModule /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/DatabaseSupport/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/DatabaseSupport /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/DatabaseSupport /Users/Shared/UnrealEngine/4.10/Engine/Source/Programs/UnrealLightmass/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Classes /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Public/AutoReimport /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Public/Commandlets /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Public/Dialogs /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Public/DragAndDrop /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Public/Features /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Public/Kismet2 /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Public/Layers /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Public/Localization /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Public/Settings /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Public/Tests /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Public/Toolkits /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealEd /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/BspMode/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/BspMode /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/BspMode /Users/Shared/UnrealEngine/4.10/Engine/Source/Developer/DirectoryWatcher/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/DirectoryWatcher /Users/Shared/UnrealEngine/4.10/Engine/Source/Developer/DirectoryWatcher /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/Documentation/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Documentation /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/Documentation /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Projects/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Projects/Public/Interfaces /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Projects /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Projects /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SandboxFile/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SandboxFile /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/SandboxFile /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/EditorStyle/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/EditorStyle/Public/Classes /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/EditorStyle/Public/Interfaces /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EditorStyle /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/EditorStyle /Users/Shared/UnrealEngine/4.10/Engine/Source/Developer/SourceControl/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Developer/SourceControl/Public/Tests /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SourceControl /Users/Shared/UnrealEngine/4.10/Engine/Source/Developer/SourceControl /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEdMessages/Classes /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEdMessages/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealEdMessages /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEdMessages /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/BlueprintGraph/Classes /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/BlueprintGraph/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/BlueprintGraph /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/BlueprintGraph /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Online/HTTP/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Online/HTTP/Public/Interfaces /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/HTTP /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Online/HTTP /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/UnrealAudio/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealAudio /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/UnrealAudio /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Niagara/Classes /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Niagara/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Niagara /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/MovieScene/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/MovieScene /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/MovieScene /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Niagara /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/VectorVM/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/VectorVM /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/VectorVM /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealAudioCoreAudio /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Mac/UnrealAudioCoreAudio /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UserFeedback/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UserFeedback /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UserFeedback /Users/Shared/UnrealEngine/4.10/Engine/Source/Developer/CollectionManager/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/CollectionManager /Users/Shared/UnrealEngine/4.10/Engine/Source/Developer/CollectionManager /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/NiagaraEditor/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/NiagaraEditor /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/GraphEditor/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/GraphEditor/Public/KismetNodes /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GraphEditor /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/IntroTutorials/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/IntroTutorials /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/IntroTutorials /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/GraphEditor /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/LevelEditor/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/LevelEditor /Users/Shared/UnrealEngine/4.10/Engine/Source/Developer/Settings/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Settings /Users/Shared/UnrealEngine/4.10/Engine/Source/Developer/Settings /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/LevelEditor /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/NiagaraEditor /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/AddContentDialog/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AddContentDialog /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/AddContentDialog /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/Kismet/Classes /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/Kismet/Public /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/Kismet/Public/Nodes /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/Kismet/Public/WorkflowOrientedApp /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Kismet /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/Kismet /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/PacketHandlers/PacketHandler/Public /Users/Shared/UnrealEngine/4.10/Engine/Intermediate/Build/Mac/UE4Editor/Inc/PacketHandler /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/PacketHandlers/PacketHandler /Users/Shared/UnrealEngine/4.10/Engine/Source/Runtime/Engine ../../Source/Survior2050";
+				USE_HEADERMAP = NO;
+			};
+			name = "Development Editor";
+		};
+		FE743EE2FD9C56D466EF406C /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/digantjagtap/Documents/Unreal Projects/Survior2050/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/digantjagtap/Documents/Unreal Projects/Survior2050/Binaries/Mac";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/Shared/UnrealEngine/4.10/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h;
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/digantjagtap/Documents/Unreal Projects/Survior2050/Intermediate/IOS/Survior2050-Info.plist";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/digantjagtap/Documents/Unreal Projects/Survior2050/Intermediate/Mac/Survior2050-Info.plist";
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				"PRODUCT_NAME[sdk=iphoneos*]" = Survior2050;
+				"PRODUCT_NAME[sdk=macosx*]" = Survior2050;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = macosx;
+				"SDKROOT[arch=arm*]" = iphoneos;
+				"SDKROOT[arch=x86_64]" = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+			};
+			name = Development;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4AB8404C1261E68355CF2407 /* Build configuration list for PBXProject "Survior2050" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2B9FF6C00251986A83779DA /* DebugGame */,
+				3F3C5A2513B8FE37C8CD5061 /* DebugGame Editor */,
+				E494D464905610A1594F6082 /* Development */,
+				F856F658A3E0D2F98D51E138 /* Development Editor */,
+				4BF4B5FD407F89255D77145C /* Shipping */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		521017D3EBB8D540DC207EC1 /* Build configuration list for PBXLegacyTarget "Survior2050_Build" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B9E3B7DEB7EED851D6A6B16 /* DebugGame */,
+				C59194FFFCD2D9CE380D3DAF /* DebugGame Editor */,
+				8257A4E950F731F7D3631B68 /* Development */,
+				4347DFC294321B931637F1FA /* Development Editor */,
+				16BB30C1F74BEC3D1708769F /* Shipping */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		AFE471501F961D3A429C762E /* Build configuration list for PBXNativeTarget "Survior2050_Index" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B92B2FA8CD7FBE1E584D662D /* DebugGame */,
+				23C771656B334DEBDACDBD30 /* DebugGame Editor */,
+				FE743EE2FD9C56D466EF406C /* Development */,
+				00D853F29022DAAC930630D7 /* Development Editor */,
+				7C1E5296AECC9C89C3F7F180 /* Shipping */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		E3DB610D20FFED8EC3759C63 /* Build configuration list for PBXNativeTarget "Survior2050" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A88B39C37F439617FBAF031 /* DebugGame */,
+				EA9C9A2A4AF3BC101D9DE20B /* DebugGame Editor */,
+				24FE3BF6F48229DC5EEB0682 /* Development */,
+				B12650611E69AEC1E3D2F87F /* Development Editor */,
+				0110645A364E217934566145 /* Shipping */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 613F54610214FF02B07F178A /* Project object */;
+}
