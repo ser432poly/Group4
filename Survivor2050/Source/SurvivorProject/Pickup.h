@@ -37,7 +37,7 @@ public:
 
 	virtual void WasCollected_Implementation();
 
-	static AActor* APickup::GetPickups();
+	// static AActor* APickup::GetPickups();
 
 protected:
 	/** True when pickup can be used and false when deactivated */

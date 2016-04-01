@@ -1,7 +1,8 @@
 *.sdf
 *.suo
 *.sln
-/Binaries
-/DerivedDataCache
-/Intermediate
-/Saved
+*.DS_Store
+Survivor2050/Binaries
+Survivor2050/DerivedDataCache
+Survivor2050/Intermediate
+Survivor2050/Saved

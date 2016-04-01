@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BuildReceipt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Properties>
+    <Property Name="TargetName" Value="SurvivorProject" />
+    <Property Name="Platform" Value="Mac" />
+    <Property Name="Configuration" Value="Development" />
+    <Property Name="Precompile" Value="False" />
+  </Properties>
+  <BuildProducts>
+    <BuildProduct Path="$(ProjectDir)/Binaries/Mac/SurvivorProject.app/Contents/MacOS/SurvivorProject" Type="Executable" />
+    <BuildProduct Path="$(ProjectDir)/Binaries/Mac/SurvivorProject.dsym" Type="SymbolFile" />
+    <BuildProduct Path="$(ProjectDir)/Binaries/Mac/SurvivorProject.app/Contents/MacOS/libogg.dylib" Type="DynamicLibrary" />
+    <BuildProduct Path="$(ProjectDir)/Binaries/Mac/SurvivorProject.app/Contents/MacOS/libvorbis.dylib" Type="DynamicLibrary" />
+    <BuildProduct Path="$(ProjectDir)/Binaries/Mac/SurvivorProject.app/Contents/Resources/RadioEffectUnit.component/Contents/Info.plist" Type="RequiredResource" />
+    <BuildProduct Path="$(ProjectDir)/Binaries/Mac/SurvivorProject.app/Contents/Resources/RadioEffectUnit.component/Contents/MacOS/RadioEffectUnit" Type="RequiredResource" />
+    <BuildProduct Path="$(ProjectDir)/Binaries/Mac/SurvivorProject.app/Contents/Resources/RadioEffectUnit.component/Contents/Resources/English.lproj/Localizable.strings" Type="RequiredResource" />
+    <BuildProduct Path="$(ProjectDir)/Binaries/Mac/SurvivorProject.app/Contents/Info.plist" Type="RequiredResource" />
+    <BuildProduct Path="$(ProjectDir)/Binaries/Mac/SurvivorProject.app/Contents/PkgInfo" Type="RequiredResource" />
+    <BuildProduct Path="$(ProjectDir)/Binaries/Mac/SurvivorProject.app/Contents/Resources/UE4.icns" Type="RequiredResource" />
+  </BuildProducts>
+  <RuntimeDependencies />
+  <AdditionalProperties />
+  <bRequireDependenciesToExist>true</bRequireDependenciesToExist>
+</BuildReceipt>
