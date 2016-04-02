@@ -1,7 +1,13 @@
 *.sdf
 *.suo
 *.sln
-/Binaries
-/DerivedDataCache
-/Intermediate
-/Saved
+*.DS_Store
+Survivor2050/Binaries
+Survivor2050/DerivedDataCache
+Survivor2050/Intermediate
+Survivor2050/Saved
+Survivor2050/Binaries/Mac/SurvivorProject.app/Contents/MacOS/SurvivorProject
+Survivor2050/Intermediate/Build/Mac/UE4Editor/Development/SurvivorProject/SurvivorProject.h.gch
+Survivor2050/Saved/Autosaves/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_Auto1.umap
+Survivor2050/SurvivorProject.sdf
+Survivor2050/Intermediate/Build/Win64/UE4Editor/Development/SurvivorProject/SurvivorProject.h.pch
