@@ -78,6 +78,11 @@ void ASurvivorProjectGameMode::SetLevel1Completed(bool IsLevel1Completed)
 	Level1Completed = IsLevel1Completed;
 }
 
+void ASurvivorProjectGameMode::SetBestTime(float Time)
+{
+	BestTime = Time;
+}
+
 bool ASurvivorProjectGameMode::GetKeyCollected()
 {
 	return KeyCollected;
@@ -85,4 +90,8 @@ bool ASurvivorProjectGameMode::GetKeyCollected()
 bool ASurvivorProjectGameMode::GetLevel1Completed()
 {
 	return Level1Completed;
+}
+float ASurvivorProjectGameMode::GetBestTime()
+{
+	return BestTime;
 }
