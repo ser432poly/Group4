@@ -42,10 +42,16 @@ public:
 		void SetLevel1Completed(bool IsCompleted);
 
 	UFUNCTION(BlueprintCallable, Category = "State")
+		void SetBestTime(float Time);
+
+	UFUNCTION(BlueprintCallable, Category = "State")
 		bool GetKeyCollected();
 
 	UFUNCTION(BlueprintCallable, Category = "State")
 		bool GetLevel1Completed();
+
+	UFUNCTION(BlueprintCallable, Category = "State")
+		float GetBestTime();
 
 protected:
 	/**The power needed to win the game */
@@ -66,6 +72,8 @@ private:
 	bool KeyCollected;
 
 	bool Level1Completed;
+
+	float BestTime;
 
 };
 
