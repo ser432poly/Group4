@@ -10,6 +10,7 @@ enum class ESurvivorPlayState
 {
 	EPlaying,
 	EGameOver,
+	EWon,
 	EUnknown
 };
 
@@ -39,19 +40,13 @@ public:
 		void SetKeyCollected(bool IsCollected);
 
 	UFUNCTION(BlueprintCallable, Category = "State")
-		void SetLevel1Completed(bool IsCompleted);
-
-	UFUNCTION(BlueprintCallable, Category = "State")
-		void SetBestTime(float Time);
+		void UpdateJokerPower(float Power);
 
 	UFUNCTION(BlueprintCallable, Category = "State")
 		bool GetKeyCollected();
 
 	UFUNCTION(BlueprintCallable, Category = "State")
-		bool GetLevel1Completed();
-
-	UFUNCTION(BlueprintCallable, Category = "State")
-		float GetBestTime();
+		float GetJokerPower();
 
 protected:
 	/**The power needed to win the game */
@@ -71,9 +66,7 @@ private:
 
 	bool KeyCollected;
 
-	bool Level1Completed;
-
-	float BestTime;
+	float JokerPower;
 
 };
 

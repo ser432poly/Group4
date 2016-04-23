@@ -17,6 +17,8 @@ ASurvivorProjectGameMode::ASurvivorProjectGameMode()
 	HUDClass = ASurvivorProjectHUD::StaticClass();
 
 	PowerToWin = 100;
+
+	JokerPower = 100;
 }
 
 void ASurvivorProjectGameMode::BeginPlay()
@@ -24,7 +26,6 @@ void ASurvivorProjectGameMode::BeginPlay()
 	Super::BeginPlay();
 	SetCurrentState(ESurvivorPlayState::EPlaying);
 	SetKeyCollected(false);
-	SetLevel1Completed(false);
 	if (HUDWidgetClass != nullptr)
 	{
 		CurrentWidget = CreateWidget<UUserWidget>(GetWorld(), HUDWidgetClass);
@@ -72,26 +73,15 @@ void ASurvivorProjectGameMode::SetKeyCollected(bool IsKeyCollected)
 {
 	KeyCollected = IsKeyCollected;
 }
-
-void ASurvivorProjectGameMode::SetLevel1Completed(bool IsLevel1Completed)
+void ASurvivorProjectGameMode::UpdateJokerPower(float DecPower)
 {
-	Level1Completed = IsLevel1Completed;
+	JokerPower = JokerPower - DecPower;
 }
-
-void ASurvivorProjectGameMode::SetBestTime(float Time)
-{
-	BestTime = Time;
-}
-
 bool ASurvivorProjectGameMode::GetKeyCollected()
 {
 	return KeyCollected;
 }
-bool ASurvivorProjectGameMode::GetLevel1Completed()
+float ASurvivorProjectGameMode::GetJokerPower()
 {
-	return Level1Completed;
-}
-float ASurvivorProjectGameMode::GetBestTime()
-{
-	return BestTime;
+	return JokerPower;
 }
