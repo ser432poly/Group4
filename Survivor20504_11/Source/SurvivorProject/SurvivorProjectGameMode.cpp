@@ -5,6 +5,7 @@
 #include "SurvivorProjectHUD.h"
 #include "SurvivorProjectCharacter.h"
 #include "Blueprint/UserWidget.h"
+#include "AudioDevice.h"
 
 ASurvivorProjectGameMode::ASurvivorProjectGameMode()
 	: Super()
@@ -84,4 +85,34 @@ bool ASurvivorProjectGameMode::GetKeyCollected()
 float ASurvivorProjectGameMode::GetJokerPower()
 {
 	return JokerPower;
+}
+void ASurvivorProjectGameMode::AdjustVolume(float Volume)
+{
+	FAudioDevice* Device = GEngine->GetMainAudioDevice();
+	if (!Device)
+	{
+		return;
+	}
+
+	for (TMap<USoundClass*, FSoundClassProperties>::TIterator It(Device->SoundClasses); It; ++It)
+	{
+		USoundClass* SoundClass = It.Key();
+		SoundClass->Properties.Volume = Volume;
+	}
+}
+float ASurvivorProjectGameMode::GetVolume()
+{
+	FAudioDevice* Device = GEngine->GetMainAudioDevice();
+	float volume;
+	if (!Device)
+	{
+		volume = 0;
+	}
+
+	for (TMap<USoundClass*, FSoundClassProperties>::TIterator It(Device->SoundClasses); It; ++It)
+	{
+		USoundClass* SoundClass = It.Key();
+		volume = SoundClass->Properties.Volume;
+	}
+	return volume;
 }

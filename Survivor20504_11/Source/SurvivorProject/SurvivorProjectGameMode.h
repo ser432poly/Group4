@@ -48,6 +48,12 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "State")
 		float GetJokerPower();
 
+	UFUNCTION(BlueprintCallable, Category = "State")
+		void AdjustVolume(float Volume);
+
+	UFUNCTION(BlueprintCallable, Category = "State")
+		float GetVolume();
+
 protected:
 	/**The power needed to win the game */
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Power", Meta = (BlueprintProtected = "true"))
